@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plan</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    background-color: #2c2b30;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 48%;
+}
+
+.pro-plan {
+    background-color: #3d3c42;
+    box-shadow: 0px -4px #5e5d66 inset;
+}
+
+.plan-title {
+    color: #a7f3d0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.features-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features-list li {
+    border-bottom: solid #343336 thin;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.get-started-btn {
+    background-color: #a7f3d0;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PRICING</h1>
+        <p>One Price for Everything</p>
+        <p>The simplest pricing in the industry. You won't need a calculator for this.</p>
+        <div class="pricing-table">
+            <div class="plan pro-plan">
+                <h2 class="plan-title">Pro</h2>
+                <p class="price">$20 / Site / Month (billed annually)</p>
+                <ul class="features-list">
+                    <li>Custom Domains</li>
+                    <li>Password Protection</li>
+                    <li>GDPR Solution</li>
+                    <li>Beautiful Site Design</li>
+                    <li>Super-Fast Hosting</li>
+                    <li>Analytics</li>
+                    <li>Custom Forms</li>
+                    <li>Blogging</li>
+                </ul>
+                <button class="get-started-btn">Get Started</button>
+            </div>
+            <div class="plan free-plan">
+                <h2 class="plan-title">Free</h2>
+                <p>Publish your site for free with almost all pro features.</p>
+                <ul class="features-list">
+                    <li>Everything from Pro, except:</li>
+                    <li>- No Custom Domains</li>
+                    <li>- "Made with Unirus™" Branding</li>
+                    <li>- No credit card required</li>
+                </ul>
+                <button class="get-started-btn">Get Started</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
